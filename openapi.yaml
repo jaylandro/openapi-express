@@ -15,3 +15,14 @@ paths:
             text/plain:
               schema:
                 type: string
+  /goodbye:
+    get:
+      summary: Returns a farewell
+      operationId: getGoodbye
+      responses:
+        '200':
+          description: Successful response
+          content:
+            text/plain:
+              schema:
+                type: string
